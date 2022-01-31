@@ -1,0 +1,166 @@
+@app-primary: #40c0f0;
+@app-secondary: #e94560;
+
+@app-yellow:#f0c040;
+@app-white:#ffffff;
+@app-boeder-color:#404040;
+@lightgray-background-color:#e0e0e0;
+
+.cart-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: @lightgray-background-color;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  // align-items: center;
+  
+}
+
+.card-product{
+  background-color: @lightgray-background-color;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+
+}
+.card-product--product{
+  flex: 2;
+}
+.card-product__item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-lis__img{
+  max-height: 8rem;
+  width: auto;
+}
+.product-list__addtocart{
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem @app-boeder-color solid;
+  background-color: @app-yellow;
+  width: 100%;
+  cursor: pointer;
+}
+.cart-item{
+  background-color: @lightgray-background-color;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.cart-item--details{
+  flex: 1;
+}
+.cart-item__block .cart-btn{
+  flex: 2; 
+}
+.cart-btn__remove{
+  background-color: @app-secondary;
+  width: 1.5rem;
+}
+.cart-btn__add{
+  background-color: @app-primary;
+  width: 1.5rem;
+}
+.price-text{
+  text-align: right;
+}
+.price-text--details{
+  flex: 2;
+}
+
+.checkout-details{
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-details__price-value{
+  flex: 2;
+}
+.checkout-details__price-label{
+  flex: 1;
+}
+
+.checkout-taxDetail{
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-taxDetail__label{
+  flex: 2;
+}
+.checkout-taxDetail__Value{
+  flex: 1;
+}
+.checkout-shippingDetail{
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-shippingDetail__label{
+  flex: 2;
+}
+.checkout-shippingDetail__value{
+  flex: 1;
+}
+.checkout-total{
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-total__label{
+  flex: 2;
+}
+.checkout-total__value{
+  flex: 1;
+}
+.cart-item__checkoutbtn{
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem @app-boeder-color solid;
+  background-color: @app-yellow;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+button.badge {
+  background-color: @app-secondary;
+  border: none;
+  color: @app-white;
+  width: 1.5rem;
+}
+
+
+
+.image-icon{
+  height: 20px;
+  padding: 2px;
+}
+.upload-btn{
+  margin-left: 5px;
+  margin-top: 32px;
+  height: 37px;
+}
+
+
+/********************************************/
+.login-signup{
+  box-shadow: 0 0 38px #666;
+  margin: 40px auto;
+  background: url(./components/assets/bg-image.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  color: white;
+}
+
+
+
+
+
