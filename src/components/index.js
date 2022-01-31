@@ -6,7 +6,7 @@ export const SignInUpPage = () => {
         <div className='container p-3 my-3 d-flex justify-content-center'>
 
             <h1>Welcome to About page!</h1>
-           
+           <h2>Hello There!</h2>
         </div>
     )
 }
